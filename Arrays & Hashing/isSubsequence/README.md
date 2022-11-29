@@ -1,6 +1,10 @@
 # How algorithm work
 
 
+![Media_221129_124338](https://user-images.githubusercontent.com/72602749/204511601-a4b921f1-0bbd-4084-80df-342f16391c7d.gif)
+
+
+
 # Problem
 Given two strings <code>s</code> and <code>t</code>, return <code>true</code><em> if </em><code>s</code><em> is a <strong>subsequence</strong> of </em><code>t</code><em>, or </em><code>false</code><em> otherwise</em>.</p>
 
