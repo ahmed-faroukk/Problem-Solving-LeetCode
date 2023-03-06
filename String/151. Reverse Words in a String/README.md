@@ -1,35 +1,38 @@
-Given an input string s, reverse the order of the words.
+Given an input string <code>s</code>, reverse the order of the <strong>words</strong>.</p>
 
-A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
+<p>A <strong>word</strong> is defined as a sequence of non-space characters. The <strong>words</strong> in <code>s</code> will be separated by at least one space.</p>
 
-Return a string of the words in reverse order concatenated by a single space.
+<p>Return <em>a string of the words in reverse order concatenated by a single space.</em></p>
 
-Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.
+<p><b>Note</b> that <code>s</code> may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single space separating the words. Do not include any extra spaces.</p>
 
- 
+<p>&nbsp;</p>
+<p><strong class="example">Example 1:</strong></p>
 
-Example 1:
+<pre><strong>Input:</strong> s = "the sky is blue"
+<strong>Output:</strong> "blue is sky the"
+</pre>
 
-Input: s = "the sky is blue"
-Output: "blue is sky the"
+<p><strong class="example">Example 2:</strong></p>
 
-Example 2:
+<pre><strong>Input:</strong> s = "  hello world  "
+<strong>Output:</strong> "world hello"
+<strong>Explanation:</strong> Your reversed string should not contain leading or trailing spaces.
+</pre>
 
-Input: s = "  hello world  "
-Output: "world hello"
-Explanation: Your reversed string should not contain leading or trailing spaces.
+<p><strong class="example">Example 3:</strong></p>
 
-Example 3:
+<pre><strong>Input:</strong> s = "a good   example"
+<strong>Output:</strong> "example good a"
+<strong>Explanation:</strong> You need to reduce multiple spaces between two words to a single space in the reversed string.
+</pre>
 
-Input: s = "a good   example"
-Output: "example good a"
-Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
+<p>&nbsp;</p>
+<p><strong>Constraints:</strong></p>
 
- 
-
-Constraints:
-
-    1 <= s.length <= 104
-    s contains English letters (upper-case and lower-case), digits, and spaces ' '.
-    There is at least one word in s.
+<ul>
+	<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>s</code> contains English letters (upper-case and lower-case), digits, and spaces <code>' '</code>.</li>
+	<li>There is <strong>at least one</strong> word in <code>s</code>.</li>
+</ul>
 
