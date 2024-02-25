@@ -1,4 +1,4 @@
-![Insertion-sort-example](https://github.com/ahmed-faroukk/Problem-Solving-LeetCode/assets/72602749/b2f7d114-d3f4-4227-977b-07bc78723caf)
+
 
 # Insertion Sort Algorithm
 
@@ -18,6 +18,10 @@ The algorithm works by repeatedly taking one element from the unsorted part of t
 
 3. **Insert the key into its correct position in the sorted part.**
    - Repeat this process for all elements in the array.
+  
+ ## how algo works
+
+![Insertion-sort-example](https://github.com/ahmed-faroukk/Problem-Solving-LeetCode/assets/72602749/b2f7d114-d3f4-4227-977b-07bc78723caf)
 
 ## Pseudocode
 
@@ -37,5 +41,4 @@ public class InsertionSort {
     }
 }
 
-## how algo works
-![Insertion-sort-example](https://github.com/ahmed-faroukk/Problem-Solving-LeetCode/assets/72602749/b2f7d114-d3f4-4227-977b-07bc78723caf)
+
